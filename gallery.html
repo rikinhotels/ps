@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Gallery</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/skin-2.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/jquery.fancybox-1.3.4.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/tabs.css">
+    <link href='http://fonts.googleapis.com/css?family=Cabin+Sketch:400,700' rel='stylesheet' type='text/css'>
+    <script src="js/jquery-1.7.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.jcarousel.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fancybox-1.3.4.pack.js"></script>
+    <script src="js/tabs.js"></script>
+    <script>
+		$(document).ready(function(){
+			jQuery('#mycarousel-1, #mycarousel-2, #mycarousel-3, #mycarousel-4, #mycarousel-5, #mycarousel-6, #mycarousel-7').jcarousel({
+				horisontal: true,
+				wrap:'circular',
+				scroll:1,
+				easing:'easeInOutBack',
+				animation:1200
+			});
+			$("a.plus").fancybox({
+				'transitionIn'	:	'elastic',
+				'transitionOut'	:	'elastic',
+				'speedIn'		:	600, 
+				'speedOut'		:	200, 
+				'overlayShow'	:	true
+			})
+		});
+	</script>
+	<!--[if lt IE 8]>
+       <div style=' clear: both; text-align:center; position: relative;'>
+         <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+           <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+        </a>
+      </div>
+    <![endif]-->
+    <!--[if lt IE 9]>
+   		<script type="text/javascript" src="js/html5.js"></script>
+    	<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+	<![endif]-->
+</head>
+<body>
+  <!--==============================header=================================-->
+  <div class="header">
+  	<div>
+        <div class="subpages-nav">
+            <nav>  
+                <ul class="menu">
+                    <li class="li-none"><a href="index.html">Home</a></li>
+                    <li><a href="about us.html">About us</a></li>
+										
+                    
+                    <li class="current"> <li class="li-left li-none">
+										<a href="gallery.html">Gallery</a></li>
+										<li><a href="gallery.html">Gallery</a></li>
+										
+										
+                    
+                    <li><a href="contact us.html">Contact us</a></li>
+                </ul>
+                <h1><a href="index.html"><img src="images1/pslogo1.png" alt=""></a></h1>
+            </nav>
+        </div>
+    </div>
+  </div>   
+<!--==============================content================================-->
+    <section id="content">
+    	<div class="page3-row1 pad-2 tabs">
+        	
+				<div class="col-8">
+            	<h2 class="h2 p2">PAINTINGS:-</h2>
+                 <ul class="list-1 nav">
+                <li class="selected"><a href="#tab-1"></a></li>
+   
+                </ul>
+            </div>
+            <div class="col-9">
+            	<h3 class="h3-2"></h3>
+                <div id="tab-1" class="tab-content gallery-photo">
+                   <div class="inner">
+                        <ul id="mycarousel-1" class="jcarousel-skin-tango">
+                            <li><a class="plus"     href="images1/p1-big.jpg"><img src="images1/p1-.jpg" alt=""></a><a class="plus"     href="images1/p2-big.jpg"><img src="images1/p2-.jpg" alt=""></a><a class="plus"     href="images1/p7-big.jpg"><img src="images1/p7-.jpg" alt=""></a><a class="plus"     href="images1/p10-big.jpg"><img src="images1/p10-.jpg" alt=""></a></li>
+                            <li><a class="plus"     href="images1/p-big.jpg"><img src="images1/p-.jpg" alt=""></a><a class="plus"     href="images1/p3-big.jpg"><img src="images1/p3-.jpg" alt=""></a><a class="plus"     href="images1/p6.jpg"><img src="images1/p6-.jpg" alt=""></a><a class="plus"     href="images1/p11-big.jpg"><img src="images1/p11-.jpg" alt=""></a></li>
+                            <li><a class="plus"     href="images1/scene.jpg"><img src="images1/scenen.jpg" alt=""></a><a class="plus"     href="images1/p4-big.jpg"><img src="images1/p4-.jpg" alt=""></a><a class="plus"     href="images1/p8-big.jpg"><img src="images1/p8-.jpg" alt=""></a><a class="plus"     href="images1/nice-big.jpg"><img src="images1/nice-.jpg" alt=""></a></li>
+                            <li><a class="plus"     href="images1/bud-big.jpg"><img src="images1/bud-.jpg" alt=""></a><a class="plus"     href="images1/p5-big.jpg"><img src="images1/p5.jpg" alt=""></a><a class="plus"     href="images1/p9-big.jpg"><img src="images1/p9.jpg" alt=""></a><a class="plus"     href="images1/narte.jpg"><img src="images1/nartesm.jpg" alt=""></a></li>
+                            </ul>
+                    </div>
+                </div>
+               
+												
+                    </div>
+                </div>
+            </div>      
+        </div>
+    </section> 
+<!--==============================footer=================================-->
+    <footer>
+        <span><strong>© 2012 Pooja Arts</strong><br>
+        Website Powered by <a class="link-2" href="http://www.poojasarin.com/" target="_blank" rel="nofollow">SA DESIGNS</a></span>
+    </footer>	           
+</body>
+</html>
